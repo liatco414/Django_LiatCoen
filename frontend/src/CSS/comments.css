@@ -1,0 +1,20 @@
+.modal-bottom-right {
+    position: fixed !important;
+    right: 20px !important;
+    bottom: 10px !important;
+    width: 300px !important;
+    left: auto !important;
+    transform: none !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: end !important;
+    justify-content: end;
+}
+
+.modal-dialog.modal-bottom-right {
+    position: fixed !important;
+    right: 20px !important;
+    bottom: 0px !important;
+    width: 300px !important;
+}

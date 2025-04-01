@@ -1,0 +1,51 @@
+.footer {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 30px;
+}
+
+@media (max-width: 1200px) {
+    .footer {
+    }
+}

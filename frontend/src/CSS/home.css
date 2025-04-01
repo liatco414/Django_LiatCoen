@@ -1,0 +1,28 @@
+.articles {
+    padding: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    min-height: 100vh;
+}
+.h1p {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
